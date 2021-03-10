@@ -1,6 +1,7 @@
 :root {
   --primary-color: #283593;
   --primary-color-light: #5c6bc0;
+  --secondary-color: #212121;
 }
 
 * {
@@ -28,7 +29,7 @@ main {
 }
 
 .social-link {
-  color: #000;
+  color: var(--secondary-color);
   background-color: #fff;
   padding: 10px;
   font-size: 24px;
@@ -67,7 +68,7 @@ main {
 
 .container:hover {
   transform: scale(1.2);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.52);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.32);
 }
 
 .container header {
@@ -94,4 +95,5 @@ p {
   margin: 20px auto;
   font-size: 24px;
   text-align: center;
+  color: var(--secondary-color);
 }
